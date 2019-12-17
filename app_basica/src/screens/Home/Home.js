@@ -1,8 +1,10 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-labels */
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
-import { View, Text, TextInput } from 'react-native';
+import { View, Text, TextInput, Button } from 'react-native';
 import styles from './Styles';
+// import { Button } from 'native-base';
 
 
 class Home extends Component {
@@ -21,6 +23,11 @@ class Home extends Component {
         <Text style={styles.textTwo}>
           {this.state.text.split(' ').map((word) => word && '🍕').join(' ')}
         </Text>
+        <Button onPress={() => {
+          alert('You tapped the button!');
+        }}
+          title="Presioname"
+        />
       </View>
     );
   }

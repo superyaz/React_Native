@@ -9,7 +9,7 @@ class Login extends Component {
     return (
       <View>
         <Home name="Yazin" />
-        <Perfil text="lorem insum no se que mas poner porque no me acuerdo de nada más :D" />
+        <Perfil text="lorem insum no se que mas poner porque no me acuerdo de nada más :D, necesito que haga scrol para poder mirar como funciona el scroll dentro de la aplicacion" />
       </View>
     );
   }
